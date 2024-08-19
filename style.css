@@ -1,338 +1,333 @@
-*{
-  border:1px solid black;
 
+body{
+  margin: 0;
+  padding: 0;
 }
-
-header{
-  width: 585.13px;
-  height: 1080.53px;
-  top: -6px;
-  background: #CE2829;
-  background-image: url("https://s3-alpha-sig.figma.com/img/2b78/c96a/4a4acb450e3bbb3750c05c017efa1f61?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XPVNiteSnTrTt~99xEvdlNzBqt5Tkz9XP46evqjiXPa9K-VytNbNfD1mOcQ4jRxnCM016SVRJxiRkUGSczgg6knFSQeyvuZ7QZqA7XwZx7AnM3IY9VvrJ~rMmNdYGgBtVBTN9tF6p0oeQWko7BB0GjyCPn2OBjIhh2MGC~9tBpQnpiOZS4BllmULjpwQ4Ik49O5K1zCDFMLlopjrBOOgbvTRb-hqV~2GfHKEzWqTdGie8AZ5UAg9hkJH60SEebg~KeD8-M3X7oZCTfdKF0JtGyGbw9kcXylSVLnNpqUHghrPXbf0E1LxFcprbRyti9xK~PCSdyvqxozYwo626IyV4A__");
-  background-position: center 120%;
-  background-repeat: no-repeat;
+.main-page-section{
+background: #CE2829;
+margin: 0;
+padding: 15% 10% 10%;
+background-image: url("https://s3-alpha-sig.figma.com/img/2b78/c96a/4a4acb450e3bbb3750c05c017efa1f61?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Q5SkFqVQKbw2YAz1LUq23sLCwF~9lrjVBEYMZMge2jWjH46ahGP6bf5HNwKjl8WfW7tagTE-Eys2W0EA4jdH4AoGbqB6z4mzSRjaVD6FieOI4rJgJ2Q903PL~X6wUlQUEfJ5ekubHGvM2a~kG7VyBG07akSH2adFhRLE5oDOIgRdIB8R~fJz~kR8S-Li88JdqKd34bx4N88Ckc-IVPek8AaclD3xP0WhTkudw2FKX75oV70X5H1zBNSvnN25kEnB8aYE4yLcpCxGXhdYzwzh8XRPm3KM7UNixCW9eby4T4jVqHHfWnZAWTm2f71FN8KHYY78p~2vZ7Myuqqqqxa~LA__");background-repeat: no-repeat;
+background-position: center bottom;
+background-size: 140%;
 }
 .main-page-content{
-  width:398px;
-  height: 854px;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  margin-left: 71px;
-  margin-right: 71px;
-  opacity: 0px;
-  text-align:center;
-}
-header h1{
-  width: 398px;
-height: 45.79px;
-  font-family: "Londrina Solid", sans-serif;
-  color:white;
-  font-size:3rem;
-  text-align: center;
-
-}
-header p{
-  width: 100%;
-  height: 368px;
-  font-family: Roboto Condensed;
-  font-size: 70px;
-  font-weight: 300;
-  line-height: 92px;
-  letter-spacing: 1.5px;
-  text-align: center;
-  color:white;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-header button{
-  width: 193.27px;
-height: 56px;
-border-radius: 50px 50px 50px 50px;
-background: #FDC913;
-margin-bottom: 40px;
-font-family: "Barlow";
-font-size: 24px;
-font-weight: 600;
-line-height: 56px;
-text-align: center;
-justify-content: center;
-}
-.tanıtım{
-  width: 585.13px;
-  height: 1,842px;
-  opacity: 0px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  row-gap: 2.5rem;
 }
-.choose-kitchen {
+.main-title{
+ margin: 0;
+ padding: 0;
+ width: 100%;
+}
+.main-page-content h1{
+  font-family: "Londrina Solid", sans-serif;
+  color:white;
+  text-align: center;
+  font-size: 2.3rem;
+  margin: 0;
+  width: 100%;
+}
+.text-main{
+  margin: 0;
+  padding: 0;
   display: flex;
-  width: 585.13px;
-  height:268px;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.main-page-content p{
+  font-family: Roboto Condensed;
+  font-size: 3.8rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  margin: 0;
+  flex-wrap: wrap;
+}
+.btn1{
+  padding-bottom: 40%;
+  text-align: center;
+}
+.main-button{
+  border-radius: 3rem;
+  background: #FDC913;
+  font-family: "Barlow";
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 2% 9%;
+  margin-bottom: 10%;
+}
+.content-section{
+  display: flex;
+  flex-direction: column;
+}
+.choose-kitchen{
+  margin: 0;
+  padding: 1% 4%;
 }
 .kitchen{
-display: flex;
-width: 411.66px;
-height: 246px;
-gap: 41px;
-margin: auto;
-flex-wrap:wrap;
-justify-content: center;
-}
-.kitchen div{
-  width: 150px;
-  height:42px;
   display: flex;
   align-items: center;
-  }
-  .kitchen img{
-    margin-right: 5%;
-  }
-  .ozel-lezzet{
-    width: 422px;
-    height: 336px;
-    border-radius: 12px 12px 12px 12px;
-    background-image: url("public/assets/iteration-2/cta/kart-1.png");
-    background-size:cover;
-    background-repeat: no-repeat;
+  padding: 4%;
+  justify-content: space-evenly;
+  gap: 2rem;
 }
-.ozel-lezzet-content{
-  margin-top: 10%;
-  margin-left: 10%;
+.group1 div,.group2 div{
+display: flex;
+align-items: center;
+font-size: 1rem;
+
+}
+.group1, .group2{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  gap: 1.1rem;
+}
+.kitchen img{
+  width: 2rem;
+height: 1.5rem;
+}
+.img-content{
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.ozel-lezzet{
+    background-image: url("public/assets/iteration-2/cta/kart-1.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    border-radius: 0.8rem;
+    padding: 5%;
+    display: flex;
 }
 .ozel-lezzet-metin{
-  width: 288.18px;
-  height: 148px;
   color:white;
   font-family: Quattrocento;
-  font-size: 68px;
+  font-size: 3.2rem;
   font-weight: 700;
-  line-height: 72px;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin:0;
 }
-.ozel-lezzet-aciklama {
-  width: 275px;
-  height: 27px;
+.ozel-lezzet-aciklama{
   font-family: Barlow;
-font-size: 20px;
-font-weight: 600;
-line-height: 26.76px;
-text-align: left;
+font-size: 0.9rem;
+font-weight: 500;
 color:white;
+margin-top: 5%;
+margin-bottom: 5%;
 }
 .siparis-ver{
-  width: 138px;
-height: 48px;
-border-radius: 50px 50px 50px 50px;
-color:red;
+border-radius: 4rem;
+color:#CE2829;
+padding: 5% 6%;
+background: #FFFFFF;
 }
 .hackathlon{
-  width: 422px;
-    height: 336px;
-    border-radius: 12px 12px 12px 12px;
-    background-image: url("public/assets/iteration-2/cta/kart-2.png");
-    background-size:85%;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: #292929;
+  background-image: url("public/assets/iteration-2/cta/kart-2.png");
+  background-size:75%;
+  background-repeat: no-repeat;
+  background-position:right center;
+  background-color: #292929;
+  border-radius: 0.8rem;
+  padding: 5%;
+  display: flex;
+}
+.hackathlon-metin{
+  color:white;
+  font-family: Quattrocento;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin:0;
+  margin-bottom: 5%;
+  margin-top: 10%;
+  padding-right: 40%;
+ 
 }
 .hackathlon-content{
   margin-top: 10%;
-  margin-left: 8%;
+  margin-bottom: 10%;
 }
-
-.hackathlon-metin{
-  width: 190.35px;
-  height: 86px;
-  color:white;
+.npm-kurye{
+  background-image: url("public/assets/iteration-2/cta/npm.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    border-radius: 0.8rem;
+    padding: 5%;
+    display: flex;
+}
+.npm-kurye-metin{
   font-family: Barlow;
-  font-size: 32px;
+  font-size: 1.3rem;
   font-weight: 600;
-  line-height: 44.27px;
   text-align: left;
   margin-top: 15%;
-
-}
-
-.npm-kurye{
-  width: 422px;
-    height: 336px;
-    border-radius: 12px 12px 12px 12px;
-    background: rgba(255, 238, 204, 1);
-    background-image: url("https://s3-alpha-sig.figma.com/img/b205/d24a/40ed8009ff8742ced4cebd1f21b6c436?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HHfy-ccxxUXWNwffNtjt-62KMix74j-c7sq4AVGS5rlrfZAMkOABTj8HCRf0DcdRFxfAkZFjisMRviTFxDiyEQ1wrzawM5flxORALVys3IriyhfUIle~wWOnA7ApCX9rFBcmRWU3WFESpTF1sm-YLTw9j9mPVOSHhGVkihE-WEOf0KKXSuq~lMFvx8dzjkwakiIX~1hioGkDec4JF7n6kTsPKqjqEBEm45itzr2lljlWOrgLMjbGdJFSf~t39BbqmQJcypIzt0I-uHV9Y-HnqgauJuA0HMBxa3cJ8DLgja6vXqKghq2myHggxI78CBptRhXmiF38e7GXJO3p9XQ4xQ__"),url("https://s3-alpha-sig.figma.com/img/3eca/c553/7e43419d60a8258a07300efc67447fa4?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p9ax3K-O0tkMYhrdBI5aXUgiBk3SllBakZottm3lNtP9g8bIwHcH~7MUzO4Ro3bOrc-ZA6LAhhuK-6UC-priYvfMSwmdwQxuCgPjnaKB406ahYT39n89xM6SuH0wf4gOJh1dcb5jTLxKaRdPcvNb7U6N2UwIFnQLQl1axRTTBnwLw9UhfGVB93XriBMi1flQ-jITXpPPBVtFsrGC~cFM4rvzOzHbDi0ndB1vzKlptPGZQKSFNh-2-RoHaf1TlB2f925q7H6P-VdmDtfqTGL7YGNnHG7n8XdJ8ILIbeoQkmHyFcBoy53CMoQs0FgvaZ-VVDqrE7qS~kubIWgZkJ4bTw__");
-    background-size: 422px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-  }
-.npm-content{
-  width: 212px;
-  height: 161px;
-  margin-top: 10%;
-  margin-left: 8%;
-}
-
-.npm-kurye-metin{
-  width: 254px;
-  font-family: Barlow;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 44.27px;
-  text-align: left;
+  margin-bottom: 10%;
+  margin-right: 35%;
 }
 .cok{
   font-family: Barlow;
-  font-size: 32px;
+  font-size: 1.3rem;
   font-weight: 600;
-  line-height: 44.27px;
   text-align: left;
   color:#D80027;
 }
+
 .en-cok-paketlenen{
-  width:395px;
-height:229px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 }
 .encokkırmızı{
-  width: 395px;
-  height: 46px;
   font-family: Satisfy;
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 44.27px;
+  line-height: 2.5rem;
   text-align: center;
   color: #CE2829;
   margin-bottom: 3%;
 }
+.en-cok{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:0;
+}
 .encokbuyuk{
-  width: 320px;
-  height: 75%;
 font-family: Barlow;
-font-size: 42px;
+font-size: 2rem;
 font-weight: 600;
-line-height: 56.2px;
 text-align: center;
-margin-top:0;
+margin:0 8% 8% 8%;
 }
 .menuler{
-  width:420px;
-height:1,609px;
 display: flex;
 justify-content: center;
 }
+.met-1, .met-2, .met-3{
+  font-family: Barlow;
+font-size: 1.2rem;
+font-weight: 600;
+line-height: 29.44px;
+text-align: left;
+}
   .menu-icerik{
     display: flex;
+    align-items: center;
   }
   .metin-1{
-    margin-right: 60%;
+    margin-right: 50%;
+    font-family: Barlow;
+font-size: 1rem;
+font-weight: 600;
+color:#1B1B1BB2;
+
   }
   .metin-2{
-    margin-right: 13%;
+    margin-right: 10%;
+    font-family: Barlow;
+    font-size: 1rem;
+    font-weight: 600;
+    color:#1B1B1BB2;
+  
+  }
+  .metin-3{
+    font-family: Barlow;
+font-size: 1.3rem;
+font-weight: 700;
+text-align: right;
+color:#292929;
   }
 
   footer{
     background: #1A1A1A;
     color:white;
-    width: 585.13px;
-    height: 1291px;
     display: flex;
     justify-content: center;
+    padding: 7%;
+    margin: 0;
   }
   .footer{
     display: flex;
     flex-direction: column;
-    width: 412px;
-    height:1,159.61px;
-    gap: 80px;
-    opacity: 0px;
+    row-gap: 2rem;
+    margin: 0;
+    height: 100%;
   }
+ .footer-1{
+  margin-right: 15%;
+ }
   .address-metin{
-    width: 251px;
-    height: 76.9px;
     font-family: Londrina Solid;
-    font-size: 50px;
+    font-size: 2.4rem;
     font-weight: 400;
-    line-height: 50px;
     text-align: left;
+    margin-bottom: 4%;
 
-  }
-  .footer-liste{
-    display: flex;
-    margin-left: 0;
   }
   .liste{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
   }
-  li{
-    margin-bottom:1.5rem;
+  .footer-liste{
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
   }
   .footer-2{
-    width: 306px;
-height: 313px;
+    display: flex;
+    flex-direction: column;
   }
   .footer-baslık{
-    width: 98.39px;
-height: 32px;
-font-family: Barlow;
-font-size: 24px;
+    font-family: Barlow;
+font-size: 1.5rem;
 font-weight: 500;
-line-height: 32.11px;
 text-align: left;
+color: #FFFFFF;
   }
   .footer-menu{
-    width: 221px;
-height:242.34px;
-display: flex;
-flex-direction:column;
-gap:1.3rem;
-text-decoration: none;
-color:white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
   }
-.footer-menu a{
-text-decoration: none;
-color:white;
-}
-.footer-3{
-  width: 347px;
-height:294px;
-gap: 40px;
-opacity: 0px;
-}
-
-.instagram-foto{
-  display: flex;
-  flex-wrap: wrap;
-  width: 347px;
-height: 256px;
-align-items: flex-end;
-margin-left: 0;
-margin-right: 0;
-justify-content: space-between;;
-
-}
-.footer-4{
-  width: 412px;
-  height: 69px;
-}
-.footer-final{
-  width: 445.08px;
-  height: 27px;
-  display: flex;
+  .footer-menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .instagram-foto{
+    display: flex;
+    flex-wrap: wrap;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: space-between;
+  row-gap: 2rem;
+  }
+.footer-baslık{
+  font-family: Barlow;
+font-size: 1.5rem;
+font-weight: 500;
+text-align: left;
 }
 .footer-final-metin{
-  width: 445.08px;
-  height: 27px;
+font-family: Barlow;
+font-size: 1rem;
+font-weight: 400;
+text-align: left;
 }
+
+
+
+
 
