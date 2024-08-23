@@ -3,6 +3,7 @@ body{
   margin: 0;
   padding: 0;
   max-width: 576px;
+  min-width: 360px;
 }
 .main-page-section{
 background: #CE2829;
@@ -11,11 +12,13 @@ padding: 15% 10% 10%;
 background-image: url("https://s3-alpha-sig.figma.com/img/2b78/c96a/4a4acb450e3bbb3750c05c017efa1f61?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Q5SkFqVQKbw2YAz1LUq23sLCwF~9lrjVBEYMZMge2jWjH46ahGP6bf5HNwKjl8WfW7tagTE-Eys2W0EA4jdH4AoGbqB6z4mzSRjaVD6FieOI4rJgJ2Q903PL~X6wUlQUEfJ5ekubHGvM2a~kG7VyBG07akSH2adFhRLE5oDOIgRdIB8R~fJz~kR8S-Li88JdqKd34bx4N88Ckc-IVPek8AaclD3xP0WhTkudw2FKX75oV70X5H1zBNSvnN25kEnB8aYE4yLcpCxGXhdYzwzh8XRPm3KM7UNixCW9eby4T4jVqHHfWnZAWTm2f71FN8KHYY78p~2vZ7Myuqqqqxa~LA__");background-repeat: no-repeat;
 background-position: center bottom;
 background-size: 140%;
+text-align: center;
 }
 .main-page-content{
   display: flex;
   flex-direction: column;
   row-gap: 2.5rem;
+  justify-content: center;
 }
 .main-title{
  margin: 0;
@@ -26,7 +29,8 @@ background-size: 140%;
   font-family: "Londrina Solid", sans-serif;
   color:white;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: calc(1.1rem + 6vw);
+  letter-spacing: 0.01rem;
   margin: 0;
   width: 100%;
 }
@@ -39,14 +43,15 @@ background-size: 140%;
 }
 .main-page-content p{
   font-family: Roboto Condensed;
-  font-size: 4.8rem;
+  font-size: calc(2rem + 11vw);
   font-weight: 300;
   letter-spacing: 0.1rem;
   box-sizing: border-box;
   color: white;
   text-align: center;
-  margin: 0;
+  overflow:initial;
   flex-wrap: wrap;
+  margin: 0;
 }
 .btn1{
   padding-bottom: 40%;
