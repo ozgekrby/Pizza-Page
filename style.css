@@ -1,9 +1,11 @@
 
 body{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   max-width: 576px;
-  min-width: 360px;
+  min-width: 380px;
+  width: 100%;
+  overflow-x: hidden;
 }
 .main-page-section{
 background: #CE2829;
@@ -127,20 +129,21 @@ height: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 7vw;
+    padding: 8vw;
+    padding-right: 15vw;
 }
 
 
 .ozel-lezzet-metin{
   color:white;
   font-family: Quattrocento;
-  font-size: 7vh;
+  font-size: 8vh;
   font-weight: 700;
   margin:0;
 }
 .ozel-lezzet-aciklama{
   font-family: Barlow;
-font-size: 2.1vh;
+font-size: 2.4vh;
 font-weight: 500;
 color:white;
 margin-top: 5%;
@@ -299,7 +302,7 @@ color:#292929;
  }
   .address-metin{
     font-family: Londrina Solid;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     font-weight: 400;
     text-align: left;
     margin-bottom: 4%;
@@ -370,6 +373,9 @@ font-weight: 400;
 text-align: left;
 margin-top: 2rem;
 }
+.footer-final>i{
+  margin-top:2rem;
+}
 .group1>button:hover{
   background-color: #1A1A1A;
   color:#fff;
@@ -377,4 +383,15 @@ margin-top: 2rem;
 .group2>button:hover{
   background-color: #1A1A1A;
   color:#fff;
+}
+@media (min-width: 577px) {
+  .main-page-content h1{
+    
+    font-size:3rem;
+  
+  }
+  .main-page-content p{
+
+    font-size: 7rem;
+  }
 }
